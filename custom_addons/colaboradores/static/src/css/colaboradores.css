@@ -1,0 +1,9 @@
+/* Cambia el color de fondo de la vista de lista */
+.o_list_view table.o_list_content tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* Encabezados con color suave */
+.o_list_view th {
+  background-color: #4CAF50;
+  color: white;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- Menú raíz con categoría visible -->
+  <menuitem id="menu_hr_root" name="Recursos Humanos" sequence="10" action=""/>
+  
+  <!-- Submenú Colaboradores -->
+  <menuitem id="menu_colaboradores" name="Colaboradores" parent="menu_hr_root"/>
+
+  <!-- Submenú Registro -->
+  <menuitem id="menu_colab_records" name="Registro" parent="menu_colaboradores"
+            action="action_colab_tree"/>
+</odoo>
